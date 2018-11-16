@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    padding-top: 65px;
+    min-width: 700px;
+}
+
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: lightgrey;
+}
+
+.nav-logo{
+    position: absolute;
+    font-size: 26px;
+    top: 15px;
+    left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links{
+    position: absolute;
+    font-size: 26px;
+    right: 10px;
+    top: 15px;
+}
+
+.container{
+    width: 80%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+label{
+    display: block;
+    font-size: 22px;
+}
+
+.search-img{
+    height: 30px;
+    border: 1px lightgray solid;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+input[type="text"]{
+    float: left;
+    text-indent: 5px;
+    height: 30px;
+    border: 1px lightgray solid;
+    border-radius: 2px;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 400px;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+
+li {
+    float: left;
+    border: 1px lightgray solid;
+    padding: 10px;
+}
+
+.pages-left{
+    border-radius: 4px 0px 0px 4px;
+    padding-left: 10px;
+}
+
+.pages-right{
+    border-radius: 0px 4px 4px 0px;
+    padding-right: 10px;
+}
+
+.job{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section p{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+a:hover{
+    text-decoration: underline;   
+}
+
+.pages-left:hover, .pages-right:hover{
+    text-decoration: underline;
+}
+
